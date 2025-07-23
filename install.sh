@@ -34,6 +34,7 @@ esac
 INSTALL_DIR="$RUNNER_TEMP/git-cliff"
 mkdir -p "$INSTALL_DIR"
 cd "$INSTALL_DIR"
+pwd 
 
 echo "git-cliff-${ARCH}-${OS}.${ARCHIVE_EXT}"
 
@@ -78,5 +79,7 @@ if [[ ! -e "$TARGET" ]]; then
 else
     echo "Using cached git-cliff binary."
 fi
+pwd 
+ls -la
 
 echo "git-cliff is ready to use!"
