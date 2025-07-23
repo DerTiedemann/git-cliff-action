@@ -5,6 +5,8 @@ set -uxo pipefail
 # Avoid file expansion when passing parameters like with '*'
 set -o noglob
 
+echo "$(pwd)"
+
 GIT_CLIFF_BIN='git-cliff'
 
 if [[ "${RUNNER_OS}" == 'Windows' ]]; then
