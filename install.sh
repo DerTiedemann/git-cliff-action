@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [[ -n "$DEBUG" ]]; then
+if [[ -n "$VERBOSE" ]]; then
     set -x
 fi
 
