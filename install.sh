@@ -81,6 +81,6 @@ else
 fi
 pwd 
 ls -la
-git status
+# git status
 
 echo "git-cliff is ready to use!"
