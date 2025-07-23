@@ -56,3 +56,5 @@ echo "version=$(jq -r '.[0].version' $CONTEXT)" >>$GITHUB_OUTPUT
 
 # Pass exit code to the next step
 echo "exit_code=$exit_code" >>$GITHUB_OUTPUT
+
+git status
