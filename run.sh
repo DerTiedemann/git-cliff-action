@@ -6,6 +6,7 @@ set -uxo pipefail
 set -o noglob
 
 echo "$(pwd)"
+git status
 
 GIT_CLIFF_BIN='git-cliff'
 
