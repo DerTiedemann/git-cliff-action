@@ -34,7 +34,7 @@ esac
 INSTALL_DIR="$RUNNER_TEMP/git-cliff"
 mkdir -p "$INSTALL_DIR"
 cd "$INSTALL_DIR"
-pwd 
+echo "$(pwd)"
 
 echo "git-cliff-${ARCH}-${OS}.${ARCHIVE_EXT}"
 
